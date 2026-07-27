@@ -59,6 +59,7 @@ function mergeMatchData(fixtures, predictions) {
 
     return {
       id: fixture.id,
+      hasPrediction: predictionsById.has(fixture.id),
       home: fixture.casa,
       away: fixture.trasferta,
       league: fixture.campionato,
@@ -169,7 +170,29 @@ function renderLeagues() {
 }
 
 function renderPredictions() {
-  document.querySelector("#predictions-grid").innerHTML = matches.map((match) => `
+  const validPredictions = matches
+    .filter((match) =>
+      match.hasPrediction &&
+      match.confidence >= 65 &&
+      !Object.values(match.picks).includes("N/D")
+    )
+    .sort((first, second) => second.confidence - first.confidence);
+
+  const countLabel = validPredictions.length === 1
+    ? "1 pronostico selezionato"
+    : `${validPredictions.length} pronostici selezionati`;
+  document.querySelector("#view-pronostici .legend").innerHTML = `<span></span> ${countLabel} · Dati dimostrativi`;
+
+  if (validPredictions.length === 0) {
+    document.querySelector("#predictions-grid").innerHTML = `
+      <article class="prediction-row">
+        <div><h3>Oggi nessuna partita ha superato la soglia minima di affidabilità.</h3></div>
+      </article>
+    `;
+    return;
+  }
+
+  document.querySelector("#predictions-grid").innerHTML = validPredictions.map((match) => `
     <article class="prediction-row">
       <div><span class="competition">${match.league}</span><h3>${match.home} – ${match.away}</h3></div>
       <div class="prediction-pills"><span>${match.picks.oneXTwo}</span><span>${match.picks.over25}</span><span>${match.picks.goal}</span></div>
