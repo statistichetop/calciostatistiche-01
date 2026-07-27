@@ -3,6 +3,9 @@ let historyRows = [];
 let serieA = null;
 let serieAStats = null;
 let serieAStatsError = null;
+let serieACalendar = null;
+let serieACalendarError = null;
+let serieATrend = null;
 
 const leagues = ["Serie A", "Serie B", "Serie C Girone A", "Serie C Girone B", "Serie C Girone C", "Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Primeira Liga", "Eredivisie", "Süper Lig"];
 const dataFiles = {
@@ -10,7 +13,9 @@ const dataFiles = {
   predictions: "data/pronostici.json",
   history: "data/storico.json",
   serieA: "data/campionati/serie-a.json",
-  serieAStats: "data/statistiche-serie-a-reali.json"
+  serieAStats: "data/statistiche-serie-a-reali.json",
+  serieACalendar: "data/calendario-serie-a-2026-27.json",
+  serieATrend: "data/andamento-serie-a-reale.json"
 };
 
 const content = document.querySelector("#app-content");
@@ -201,6 +206,16 @@ function showChampionshipsOverview() {
   document.querySelector("#serie-a-real-content").hidden = true;
 }
 
+function serieANavigation(active) {
+  return `
+    <div class="serie-a-tabs" aria-label="Sezioni Serie A">
+      <button type="button" data-action="serie-a-table" class="${active === "classifica" ? "active" : ""}">Classifica</button>
+      <button type="button" data-action="serie-a-calendar" class="${active === "calendario" ? "active" : ""}">Calendario</button>
+      <button type="button" data-action="serie-a-teams" class="${active === "squadre" ? "active" : ""}">Squadre</button>
+    </div>
+  `;
+}
+
 function renderSerieATable() {
   const container = document.querySelector("#serie-a-real-content");
   document.querySelector("#championships-heading").hidden = true;
@@ -224,6 +239,7 @@ function renderSerieATable() {
       <div><span class="real-data-label">DATI REALI SERIE A</span><h2>Classifica statistica</h2></div>
       <span class="count">${standings.length} squadre · ${serieAStats.numeroPartiteUtilizzate} partite analizzate</span>
     </div>
+    ${serieANavigation("classifica")}
     <div class="table-shell serie-a-table-shell">
       <table class="serie-a-table">
         <thead>
@@ -254,6 +270,76 @@ function renderSerieATable() {
       </table>
     </div>
   `;
+}
+
+function nextSerieAMatchday() {
+  const next = serieACalendar?.giornate?.find((day) =>
+    day.partite.some((match) => match.stato === "futura" || match.stato === "rinviata")
+  );
+  return next?.numero || 38;
+}
+
+function formatCalendarDate(date) {
+  if (!date) return "Data da definire";
+  return new Intl.DateTimeFormat("it-IT", {
+    day: "2-digit", month: "short", year: "numeric", timeZone: "Europe/Rome"
+  }).format(new Date(`${date}T12:00:00`));
+}
+
+function renderSerieACalendar(selectedDay = nextSerieAMatchday()) {
+  const container = document.querySelector("#serie-a-real-content");
+  document.querySelector("#championships-heading").hidden = true;
+  document.querySelector("#leagues-grid").hidden = true;
+  container.hidden = false;
+  if (serieACalendarError || !Array.isArray(serieACalendar?.giornate)) {
+    container.innerHTML = `
+      <button class="back-button" type="button" data-action="championships-overview">← Torna ai campionati</button>
+      <div class="data-error" role="alert"><strong>Calendario reale della Serie A momentaneamente non disponibile.</strong></div>`;
+    return;
+  }
+  const dayNumber = Math.min(38, Math.max(1, Number(selectedDay) || 1));
+  const day = serieACalendar.giornate.find((item) => item.numero === dayNumber);
+  const nextDay = nextSerieAMatchday();
+  container.innerHTML = `
+    <button class="back-button" type="button" data-action="championships-overview">← Torna ai campionati</button>
+    <div class="real-data-heading">
+      <div><span class="real-data-label">DATI REALI SERIE A</span><h2>Calendario ${serieACalendar.stagione}</h2></div>
+      <span class="count">Prossima giornata: ${nextDay}</span>
+    </div>
+    ${serieANavigation("calendario")}
+    <div class="calendar-toolbar">
+      <label for="matchday-select">Seleziona giornata</label>
+      <select id="matchday-select">
+        ${serieACalendar.giornate.map((item) => `<option value="${item.numero}" ${item.numero === dayNumber ? "selected" : ""}>Giornata ${item.numero}</option>`).join("")}
+      </select>
+      ${dayNumber === nextDay ? '<strong class="next-matchday">PROSSIMA GIORNATA</strong>' : ""}
+    </div>
+    <div class="calendar-list">
+      ${(day?.partite || []).map((match) => `
+        <article class="calendar-match">
+          <div><strong>${formatCalendarDate(match.data)}</strong><span>${match.orario || "Orario da definire"}</span></div>
+          <p><strong>${match.squadraCasa}</strong><span>–</span><strong>${match.squadraOspite}</strong></p>
+          <span class="calendar-result">${match.risultato || (match.stato === "rinviata" ? "Rinviata" : "Da disputare")}</span>
+        </article>`).join("")}
+    </div>`;
+}
+
+function renderSerieATeams() {
+  const container = document.querySelector("#serie-a-real-content");
+  const teams = serieAStandings();
+  document.querySelector("#championships-heading").hidden = true;
+  document.querySelector("#leagues-grid").hidden = true;
+  container.hidden = false;
+  container.innerHTML = `
+    <button class="back-button" type="button" data-action="championships-overview">← Torna ai campionati</button>
+    <div class="real-data-heading">
+      <div><span class="real-data-label">DATI REALI SERIE A</span><h2>Squadre</h2></div>
+      <span class="count">${teams.length} squadre</span>
+    </div>
+    ${serieANavigation("squadre")}
+    <div class="serie-a-team-list">
+      ${teams.map((team) => `<button type="button" data-team="${encodeURIComponent(team.nome)}"><span>${team.nome}</span><small>${team.partiteGiocate} partite analizzate</small></button>`).join("")}
+    </div>`;
 }
 
 function recentMatchesMarkup(matches, title) {
@@ -287,6 +373,7 @@ function percentagePair(label, overValue) {
 function renderSerieATeam(encodedName) {
   const name = decodeURIComponent(encodedName);
   const team = serieAStats?.statisticheSquadre?.find((item) => item.nome === name);
+  const trendTeam = serieATrend?.squadre?.find((item) => item.squadra === name);
   if (!team) {
     renderSerieATable();
     return;
@@ -321,8 +408,59 @@ function renderSerieATeam(encodedName) {
           <strong>No Gol ${displayValue(team.percentualeNoGol, "%")}</strong>
         </div>
       </article>
+      ${teamTrendMarkup(trendTeam)}
     </div>
   `;
+  bindTrendPoints(name);
+}
+
+function teamTrendMarkup(teamTrend) {
+  const points = teamTrend?.partite || [];
+  if (!points.length) {
+    return `<article class="detail-card trend-card"><span class="kicker">Andamento della squadra</span><p>Dati reali insufficienti per mostrare il grafico.</p></article>`;
+  }
+  const width = 760;
+  const height = 280;
+  const padding = 38;
+  const maximum = Math.max(3, ...points.map((item) => item.puntiCumulativi));
+  const x = (index) => padding + (index * (width - padding * 2)) / Math.max(1, points.length - 1);
+  const y = (value) => height - padding - (value * (height - padding * 2)) / maximum;
+  const line = points.map((item, index) => `${x(index)},${y(item.puntiCumulativi)}`).join(" ");
+  return `
+    <article class="detail-card trend-card">
+      <div class="trend-heading">
+        <div><span class="kicker">Andamento della squadra</span><h3>Punti cumulativi</h3></div>
+        <strong>Stagione ${serieATrend?.stagioneDati || "non disponibile"}</strong>
+      </div>
+      <p class="trend-note">${serieATrend?.notaStagione || ""}</p>
+      <div class="trend-chart-wrap">
+        <svg class="trend-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Grafico dei punti cumulativi">
+          <line x1="${padding}" y1="${height - padding}" x2="${width - padding}" y2="${height - padding}" class="chart-axis"/>
+          <line x1="${padding}" y1="${padding}" x2="${padding}" y2="${height - padding}" class="chart-axis"/>
+          <polyline points="${line}" class="chart-line"/>
+          ${points.map((item, index) => `<circle cx="${x(index)}" cy="${y(item.puntiCumulativi)}" r="7" tabindex="0" class="chart-point" data-trend-point="${index}"><title>Partita ${index + 1}: ${item.avversario}, ${item.risultato}, ${item.puntiCumulativi} punti totali</title></circle>`).join("")}
+          <text x="${padding}" y="${height - 10}" class="chart-label">1</text>
+          <text x="${width - padding}" y="${height - 10}" text-anchor="end" class="chart-label">${points.length}</text>
+          <text x="10" y="${padding + 4}" class="chart-label">${maximum} pt</text>
+        </svg>
+      </div>
+      <div class="trend-tooltip" aria-live="polite">Seleziona un punto per vedere i dettagli della partita.</div>
+    </article>`;
+}
+
+function bindTrendPoints(teamName) {
+  const tooltip = document.querySelector(".trend-tooltip");
+  const team = serieATrend?.squadre?.find((item) => item.squadra === teamName);
+  if (!tooltip || !team) return;
+  document.querySelectorAll("[data-trend-point]").forEach((point) => {
+    const show = () => {
+      const match = team.partite[Number(point.dataset.trendPoint)];
+      tooltip.innerHTML = `<strong>${match.avversario}</strong> · ${match.risultato} · ${match.puntiOttenuti} punti ottenuti · <strong>${match.puntiCumulativi} punti totali</strong>`;
+    };
+    point.addEventListener("pointerenter", show);
+    point.addEventListener("focus", show);
+    point.addEventListener("click", show);
+  });
 }
 
 function renderPredictions() {
@@ -458,14 +596,20 @@ function openMatch(id) {
 
 async function initializeApp() {
   try {
-    const [matchesData, predictionsData, historyData, serieAData, serieAStatsResult] = await Promise.all([
+    const [matchesData, predictionsData, historyData, serieAData, serieAStatsResult, calendarResult, trendResult] = await Promise.all([
       loadJson(dataFiles.matches, "partite-oggi.json"),
       loadJson(dataFiles.predictions, "pronostici.json"),
       loadJson(dataFiles.history, "storico.json"),
       loadJson(dataFiles.serieA, "campionati/serie-a.json"),
       loadJson(dataFiles.serieAStats, "statistiche-serie-a-reali.json")
         .then((data) => ({ data, error: null }))
-        .catch((error) => ({ data: null, error }))
+        .catch((error) => ({ data: null, error })),
+      loadJson(dataFiles.serieACalendar, "calendario-serie-a-2026-27.json")
+        .then((data) => ({ data, error: null }))
+        .catch((error) => ({ data: null, error })),
+      loadJson(dataFiles.serieATrend, "andamento-serie-a-reale.json")
+        .then((data) => ({ data, error: null }))
+        .catch(() => ({ data: null }))
     ]);
 
     matches = mergeMatchData(
@@ -476,6 +620,9 @@ async function initializeApp() {
     serieA = serieAData;
     serieAStats = serieAStatsResult.data;
     serieAStatsError = serieAStatsResult.error;
+    serieACalendar = calendarResult.data;
+    serieACalendarError = calendarResult.error;
+    serieATrend = trendResult.data;
 
     renderMatches();
     renderLeagues();
@@ -506,10 +653,16 @@ document.addEventListener("click", (event) => {
   else if (leagueButton?.dataset.league === "serie-a") renderSerieATable();
   else if (actionButton?.dataset.action === "championships-overview") showChampionshipsOverview();
   else if (actionButton?.dataset.action === "serie-a-table") renderSerieATable();
+  else if (actionButton?.dataset.action === "serie-a-calendar") renderSerieACalendar();
+  else if (actionButton?.dataset.action === "serie-a-teams") renderSerieATeams();
   else if (viewButton) {
     if (viewButton.dataset.view === "campionati") showChampionshipsOverview();
     showView(viewButton.dataset.view);
   }
+});
+
+document.addEventListener("change", (event) => {
+  if (event.target.matches("#matchday-select")) renderSerieACalendar(event.target.value);
 });
 
 window.addEventListener("resize", () => { if (window.innerWidth > 820) closeMenu(); });

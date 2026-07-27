@@ -1,0 +1,3626 @@
+{
+  "statoImportazione": "completata",
+  "stagione": "2026/2027",
+  "fonte": {
+    "pagina": "https://www.legaseriea.it/serie-a/calendario-risultati",
+    "dati": "https://api-sdp.legaseriea.it/v1/serie-a/football/seasons/serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5/matches"
+  },
+  "aggiornatoIl": "2026-07-27T21:33:51+02:00",
+  "numeroGiornate": 38,
+  "numeroPartite": 380,
+  "giornate": [
+    {
+      "numero": 1,
+      "partite": [
+        {
+          "giornata": 1,
+          "data": "2026-08-22",
+          "orario": "18:30",
+          "squadraCasa": "Inter",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-22",
+          "orario": "18:30",
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-22",
+          "orario": "20:45",
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-22",
+          "orario": "20:45",
+          "squadraCasa": "Parma",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-23",
+          "orario": "18:30",
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-23",
+          "orario": "18:30",
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-23",
+          "orario": "20:45",
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-23",
+          "orario": "20:45",
+          "squadraCasa": "Torino",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-24",
+          "orario": "18:30",
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 1,
+          "data": "2026-08-24",
+          "orario": "20:45",
+          "squadraCasa": "Roma",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "partite": [
+        {
+          "giornata": 2,
+          "data": "2026-08-28",
+          "orario": "20:45",
+          "squadraCasa": "Milan",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-29",
+          "orario": "18:30",
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-29",
+          "orario": "18:30",
+          "squadraCasa": "Monza",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-29",
+          "orario": "18:30",
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-29",
+          "orario": "20:45",
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-30",
+          "orario": "18:30",
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-30",
+          "orario": "20:45",
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-30",
+          "orario": "20:45",
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-31",
+          "orario": "18:30",
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 2,
+          "data": "2026-08-31",
+          "orario": "20:45",
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "partite": [
+        {
+          "giornata": 3,
+          "data": "2026-09-04",
+          "orario": "20:45",
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-05",
+          "orario": "15:00",
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-05",
+          "orario": "18:00",
+          "squadraCasa": "Inter",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-05",
+          "orario": "20:45",
+          "squadraCasa": "Roma",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-06",
+          "orario": "15:00",
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-06",
+          "orario": "15:00",
+          "squadraCasa": "Parma",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-06",
+          "orario": "18:00",
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-06",
+          "orario": "20:45",
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-07",
+          "orario": "18:00",
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 3,
+          "data": "2026-09-07",
+          "orario": "20:45",
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "partite": [
+        {
+          "giornata": 4,
+          "data": "2026-09-11",
+          "orario": "20:45",
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-12",
+          "orario": "15:00",
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-12",
+          "orario": "18:00",
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-12",
+          "orario": "20:45",
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-13",
+          "orario": "12:30",
+          "squadraCasa": "Torino",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-13",
+          "orario": "15:00",
+          "squadraCasa": "Como",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-13",
+          "orario": "15:00",
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-13",
+          "orario": "18:00",
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-13",
+          "orario": "20:45",
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 4,
+          "data": "2026-09-14",
+          "orario": "20:45",
+          "squadraCasa": "Inter",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "partite": [
+        {
+          "giornata": 5,
+          "data": "2026-09-18",
+          "orario": "20:45",
+          "squadraCasa": "Monza",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-19",
+          "orario": "15:00",
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-19",
+          "orario": "15:00",
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-19",
+          "orario": "18:00",
+          "squadraCasa": "Roma",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-19",
+          "orario": "20:45",
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-20",
+          "orario": "12:30",
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-20",
+          "orario": "15:00",
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-20",
+          "orario": "15:00",
+          "squadraCasa": "Parma",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-20",
+          "orario": "18:00",
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 5,
+          "data": "2026-09-20",
+          "orario": "20:45",
+          "squadraCasa": "Milan",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "partite": [
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 6,
+          "data": "2026-10-11",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "partite": [
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 7,
+          "data": "2026-10-18",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "partite": [
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 8,
+          "data": "2026-10-25",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "partite": [
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 9,
+          "data": "2026-10-28",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "partite": [
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 10,
+          "data": "2026-11-01",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "partite": [
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 11,
+          "data": "2026-11-08",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "partite": [
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 12,
+          "data": "2026-11-22",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "partite": [
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 13,
+          "data": "2026-11-29",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "partite": [
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 14,
+          "data": "2026-12-06",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "partite": [
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 15,
+          "data": "2026-12-13",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "partite": [
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 16,
+          "data": "2026-12-20",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "partite": [
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 17,
+          "data": "2027-01-03",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "partite": [
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 18,
+          "data": "2027-01-06",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "partite": [
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 19,
+          "data": "2027-01-10",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "partite": [
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 20,
+          "data": "2027-01-17",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "partite": [
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 21,
+          "data": "2027-01-24",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 22,
+      "partite": [
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 22,
+          "data": "2027-01-31",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 23,
+      "partite": [
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 23,
+          "data": "2027-02-07",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 24,
+      "partite": [
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 24,
+          "data": "2027-02-14",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 25,
+      "partite": [
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 25,
+          "data": "2027-02-21",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 26,
+      "partite": [
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 26,
+          "data": "2027-02-28",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 27,
+      "partite": [
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 27,
+          "data": "2027-03-07",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 28,
+      "partite": [
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 28,
+          "data": "2027-03-14",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 29,
+      "partite": [
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 29,
+          "data": "2027-03-21",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 30,
+      "partite": [
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 30,
+          "data": "2027-04-04",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 31,
+      "partite": [
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 31,
+          "data": "2027-04-11",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 32,
+      "partite": [
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 32,
+          "data": "2027-04-18",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 33,
+      "partite": [
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 33,
+          "data": "2027-04-25",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 34,
+      "partite": [
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 34,
+          "data": "2027-05-02",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 35,
+      "partite": [
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 35,
+          "data": "2027-05-09",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 36,
+      "partite": [
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 36,
+          "data": "2027-05-16",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 37,
+      "partite": [
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Atalanta",
+          "squadraOspite": "Lecce",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Fiorentina",
+          "squadraOspite": "Monza",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Frosinone",
+          "squadraOspite": "Cagliari",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Genoa",
+          "squadraOspite": "Bologna",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Inter",
+          "squadraOspite": "Lazio",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Parma",
+          "squadraOspite": "Juventus",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Roma",
+          "squadraOspite": "Como",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Torino",
+          "squadraOspite": "Napoli",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Udinese",
+          "squadraOspite": "Sassuolo",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 37,
+          "data": "2027-05-23",
+          "orario": null,
+          "squadraCasa": "Venezia",
+          "squadraOspite": "Milan",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    },
+    {
+      "numero": 38,
+      "partite": [
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Bologna",
+          "squadraOspite": "Parma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Cagliari",
+          "squadraOspite": "Roma",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Como",
+          "squadraOspite": "Genoa",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Juventus",
+          "squadraOspite": "Frosinone",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Lazio",
+          "squadraOspite": "Fiorentina",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Lecce",
+          "squadraOspite": "Venezia",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Milan",
+          "squadraOspite": "Udinese",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Monza",
+          "squadraOspite": "Torino",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Napoli",
+          "squadraOspite": "Atalanta",
+          "stato": "futura",
+          "risultato": null
+        },
+        {
+          "giornata": 38,
+          "data": "2027-05-30",
+          "orario": null,
+          "squadraCasa": "Sassuolo",
+          "squadraOspite": "Inter",
+          "stato": "futura",
+          "risultato": null
+        }
+      ]
+    }
+  ],
+  "eventualiAvvisi": [
+    "Gli orari null non sono ancora stati stabiliti dalla fonte ufficiale."
+  ]
+}

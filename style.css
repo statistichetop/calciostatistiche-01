@@ -290,6 +290,64 @@ h1 { margin: 12px 0 12px; font-size: clamp(44px, 7vw, 78px); line-height: 0.98; 
   cursor: pointer;
 }
 .team-link:hover, .team-link:focus-visible { color: var(--green); text-decoration: underline; }
+.serie-a-tabs { margin: 0 0 18px; display: flex; flex-wrap: wrap; gap: 8px; }
+.serie-a-tabs button {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--muted);
+  background: var(--surface);
+  font-weight: 800;
+  cursor: pointer;
+}
+.serie-a-tabs button.active, .serie-a-tabs button:hover, .serie-a-tabs button:focus-visible {
+  color: var(--bg);
+  border-color: var(--green);
+  background: var(--green);
+}
+.calendar-toolbar { margin-bottom: 14px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.calendar-toolbar label { color: var(--muted); font-size: 12px; font-weight: 800; }
+.calendar-toolbar select {
+  padding: 10px 36px 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--text);
+  background: var(--surface);
+}
+.next-matchday { padding: 6px 9px; border-radius: 7px; color: var(--bg); background: var(--lime); font-size: 10px; letter-spacing: .7px; }
+.calendar-list { display: grid; gap: 8px; }
+.calendar-match {
+  padding: 15px 18px;
+  display: grid;
+  grid-template-columns: 150px 1fr 100px;
+  align-items: center;
+  gap: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.calendar-match > div span { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
+.calendar-match p { margin: 0; display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; text-align: center; }
+.calendar-match p strong:first-child { text-align: right; }
+.calendar-match p strong:last-child { text-align: left; }
+.calendar-result { color: var(--lime); text-align: right; font-size: 12px; font-weight: 850; }
+.serie-a-team-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.serie-a-team-list button {
+  padding: 18px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--text);
+  background: var(--surface);
+  text-align: left;
+  cursor: pointer;
+}
+.serie-a-team-list button:hover, .serie-a-team-list button:focus-visible { border-color: var(--green); }
+.serie-a-team-list span { font-size: 17px; font-weight: 850; }
+.serie-a-team-list small { color: var(--muted); }
 .team-detail-hero h2 { margin-top: 10px; }
 .recent-matches-card { grid-row: span 2; }
 .recent-matches-list { margin-top: 15px; display: grid; gap: 8px; }
@@ -307,6 +365,20 @@ h1 { margin: 12px 0 12px; font-size: clamp(44px, 7vw, 78px); line-height: 0.98; 
 .percentage-pair { padding-top: 12px; display: grid; grid-template-columns: 1fr auto auto; gap: 12px; border-top: 1px solid var(--line); font-size: 12px; }
 .percentage-pair > span { color: var(--muted); }
 .percentage-pair > strong { color: var(--lime); }
+.trend-card { grid-column: 1 / -1; }
+.trend-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+.trend-heading h3 { margin: 8px 0 0; font-size: 24px; }
+.trend-heading > strong { color: var(--green); font-size: 12px; }
+.trend-note { color: var(--amber); font-size: 12px; }
+.trend-chart-wrap { width: 100%; max-width: 100%; overflow-x: auto; }
+.trend-chart { width: 100%; min-width: 520px; height: auto; }
+.chart-axis { stroke: rgba(255,255,255,.18); stroke-width: 1; }
+.chart-line { fill: none; stroke: var(--green); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.chart-point { fill: var(--bg); stroke: var(--lime); stroke-width: 4; cursor: pointer; }
+.chart-point:hover, .chart-point:focus { fill: var(--lime); outline: none; }
+.chart-label { fill: var(--muted); font-size: 11px; }
+.trend-tooltip { min-height: 42px; padding: 12px 14px; border-radius: 9px; color: var(--muted); background: rgba(255,255,255,.035); font-size: 12px; }
+.trend-tooltip strong { color: var(--text); }
 .league-number { color: rgba(201, 244, 90, .5); font-size: 12px; font-weight: 900; }
 .league-card h3 { margin: 5px 0 0; font-size: 18px; }
 .league-arrow { margin-left: auto; color: var(--green); font-size: 20px; }
@@ -360,7 +432,7 @@ tbody tr:last-child td { border-bottom: 0; }
 .detail-confidence strong { display: block; color: var(--green); font-size: 48px; line-height: 1; }
 .detail-confidence span { color: var(--muted); font-size: 11px; text-transform: uppercase; }
 .detail-grid { margin-top: 16px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-.detail-card { padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.detail-card { min-width: 0; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .split-stat { margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .split-stat div + div { padding-left: 18px; border-left: 1px solid var(--line); }
 .split-stat span, .metric-grid span { display: block; margin-bottom: 6px; color: var(--muted); font-size: 11px; }
@@ -447,6 +519,9 @@ footer span { color: var(--green); }
   .rates-card { grid-row: auto; }
   .explanation-card { grid-column: auto; }
   .real-data-heading { align-items: flex-start; flex-direction: column; }
+  .serie-a-team-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .calendar-match { grid-template-columns: 120px 1fr; }
+  .calendar-result { grid-column: 2; text-align: left; }
 }
 
 @media (max-width: 520px) {
@@ -477,6 +552,13 @@ footer span { color: var(--green); }
   .detail-confidence strong { font-size: 38px; }
   .detail-card { padding: 18px; }
   .percentage-pair { grid-template-columns: 1fr; gap: 5px; }
+  .serie-a-tabs { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .serie-a-tabs button { padding: 9px 6px; font-size: 11px; }
+  .serie-a-team-list { grid-template-columns: 1fr; }
+  .calendar-match { grid-template-columns: 1fr; gap: 10px; }
+  .calendar-match p { grid-template-columns: 1fr auto 1fr; }
+  .calendar-result { grid-column: auto; text-align: left; }
+  .trend-heading { flex-direction: column; gap: 8px; }
   .split-stat { gap: 12px; }
   .split-stat div + div { padding-left: 12px; }
   .table-shell { overflow: visible; border: 0; background: transparent; }
