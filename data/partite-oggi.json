@@ -1,6 +1,6 @@
 {
   "tipoDati": "dimostrativi",
-  "aggiornatoIl": "2026-07-27T16:30:00+02:00",
+  "aggiornatoIl": "2026-07-27T19:12:11+02:00",
   "partite": [
     {
       "id": "inter-atalanta",
@@ -10,12 +10,38 @@
       "data": "27 luglio 2026",
       "orario": "20:45",
       "statistiche": {
-        "forma": { "casa5": "V V P V N", "trasferta5": "V N V P V", "casa10": "6V · 2N · 2P", "trasferta10": "5V · 3N · 2P" },
-        "gol": { "casa": "19 fatti · 10 subiti", "trasferta": "17 fatti · 12 subiti" },
-        "rendimento": { "casa": "75% vittorie in casa", "trasferta": "58% punti in trasferta" },
-        "percentuali": { "over15": 84, "over25": 64, "over35": 38, "gol": 68, "noGol": 32 },
-        "xg": { "casa": "1,92", "trasferta": "1,54", "xgaCasa": "0,96", "xgaTrasferta": "1,18" },
-        "quote": { "uno": "1,72", "ics": "3,85", "due": "4,40" }
+        "forma": {
+          "casa5": "V V P V N",
+          "trasferta5": "V N V P V",
+          "casa10": "6V · 2N · 2P",
+          "trasferta10": "5V · 3N · 2P"
+        },
+        "gol": {
+          "casa": "19 fatti · 10 subiti",
+          "trasferta": "17 fatti · 12 subiti"
+        },
+        "rendimento": {
+          "casa": "75% vittorie in casa",
+          "trasferta": "58% punti in trasferta"
+        },
+        "percentuali": {
+          "over15": 84,
+          "over25": 64,
+          "over35": 38,
+          "gol": 68,
+          "noGol": 32
+        },
+        "xg": {
+          "casa": "1,92",
+          "trasferta": "1,54",
+          "xgaCasa": "0,96",
+          "xgaTrasferta": "1,18"
+        },
+        "quote": {
+          "uno": "1,72",
+          "ics": "3,85",
+          "due": "4,40"
+        }
       }
     },
     {
@@ -26,12 +52,38 @@
       "data": "27 luglio 2026",
       "orario": "18:30",
       "statistiche": {
-        "forma": { "casa5": "V N V V P", "trasferta5": "N P V N P", "casa10": "5V · 3N · 2P", "trasferta10": "2V · 4N · 4P" },
-        "gol": { "casa": "14 fatti · 8 subiti", "trasferta": "9 fatti · 13 subiti" },
-        "rendimento": { "casa": "68% vittorie in casa", "trasferta": "31% punti in trasferta" },
-        "percentuali": { "over15": 66, "over25": 42, "over35": 18, "gol": 44, "noGol": 56 },
-        "xg": { "casa": "1,51", "trasferta": "0,94", "xgaCasa": "0,82", "xgaTrasferta": "1,36" },
-        "quote": { "uno": "1,88", "ics": "3,30", "due": "4,25" }
+        "forma": {
+          "casa5": "V N V V P",
+          "trasferta5": "N P V N P",
+          "casa10": "5V · 3N · 2P",
+          "trasferta10": "2V · 4N · 4P"
+        },
+        "gol": {
+          "casa": "14 fatti · 8 subiti",
+          "trasferta": "9 fatti · 13 subiti"
+        },
+        "rendimento": {
+          "casa": "68% vittorie in casa",
+          "trasferta": "31% punti in trasferta"
+        },
+        "percentuali": {
+          "over15": 66,
+          "over25": 42,
+          "over35": 18,
+          "gol": 44,
+          "noGol": 56
+        },
+        "xg": {
+          "casa": "1,51",
+          "trasferta": "0,94",
+          "xgaCasa": "0,82",
+          "xgaTrasferta": "1,36"
+        },
+        "quote": {
+          "uno": "1,88",
+          "ics": "3,30",
+          "due": "4,25"
+        }
       }
     },
     {
@@ -42,12 +94,38 @@
       "data": "27 luglio 2026",
       "orario": "21:00",
       "statistiche": {
-        "forma": { "casa5": "V V V N V", "trasferta5": "V P V V N", "casa10": "8V · 1N · 1P", "trasferta10": "6V · 2N · 2P" },
-        "gol": { "casa": "27 fatti · 9 subiti", "trasferta": "22 fatti · 16 subiti" },
-        "rendimento": { "casa": "86% vittorie in casa", "trasferta": "62% punti in trasferta" },
-        "percentuali": { "over15": 92, "over25": 78, "over35": 55, "gol": 74, "noGol": 26 },
-        "xg": { "casa": "2,36", "trasferta": "1,72", "xgaCasa": "0,88", "xgaTrasferta": "1,44" },
-        "quote": { "uno": "1,55", "ics": "4,50", "due": "5,20" }
+        "forma": {
+          "casa5": "V V V N V",
+          "trasferta5": "V P V V N",
+          "casa10": "8V · 1N · 1P",
+          "trasferta10": "6V · 2N · 2P"
+        },
+        "gol": {
+          "casa": "27 fatti · 9 subiti",
+          "trasferta": "22 fatti · 16 subiti"
+        },
+        "rendimento": {
+          "casa": "86% vittorie in casa",
+          "trasferta": "62% punti in trasferta"
+        },
+        "percentuali": {
+          "over15": 92,
+          "over25": 78,
+          "over35": 55,
+          "gol": 74,
+          "noGol": 26
+        },
+        "xg": {
+          "casa": "2,36",
+          "trasferta": "1,72",
+          "xgaCasa": "0,88",
+          "xgaTrasferta": "1,44"
+        },
+        "quote": {
+          "uno": "1,55",
+          "ics": "4,50",
+          "due": "5,20"
+        }
       }
     },
     {
@@ -58,12 +136,38 @@
       "data": "28 luglio 2026",
       "orario": "19:00",
       "statistiche": {
-        "forma": { "casa5": "N V P N V", "trasferta5": "V N N P V", "casa10": "4V · 4N · 2P", "trasferta10": "4V · 3N · 3P" },
-        "gol": { "casa": "12 fatti · 9 subiti", "trasferta": "13 fatti · 12 subiti" },
-        "rendimento": { "casa": "61% punti in casa", "trasferta": "48% punti in trasferta" },
-        "percentuali": { "over15": 58, "over25": 36, "over35": 14, "gol": 46, "noGol": 54 },
-        "xg": { "casa": "1,28", "trasferta": "1,17", "xgaCasa": "0,91", "xgaTrasferta": "1,22" },
-        "quote": { "uno": "2,15", "ics": "3,10", "due": "3,60" }
+        "forma": {
+          "casa5": "N V P N V",
+          "trasferta5": "V N N P V",
+          "casa10": "4V · 4N · 2P",
+          "trasferta10": "4V · 3N · 3P"
+        },
+        "gol": {
+          "casa": "12 fatti · 9 subiti",
+          "trasferta": "13 fatti · 12 subiti"
+        },
+        "rendimento": {
+          "casa": "61% punti in casa",
+          "trasferta": "48% punti in trasferta"
+        },
+        "percentuali": {
+          "over15": 58,
+          "over25": 36,
+          "over35": 14,
+          "gol": 46,
+          "noGol": 54
+        },
+        "xg": {
+          "casa": "1,28",
+          "trasferta": "1,17",
+          "xgaCasa": "0,91",
+          "xgaTrasferta": "1,22"
+        },
+        "quote": {
+          "uno": "2,15",
+          "ics": "3,10",
+          "due": "3,60"
+        }
       }
     },
     {
@@ -74,12 +178,38 @@
       "data": "28 luglio 2026",
       "orario": "17:30",
       "statistiche": {
-        "forma": { "casa5": "V V P V N", "trasferta5": "V V N P V", "casa10": "6V · 2N · 2P", "trasferta10": "6V · 1N · 3P" },
-        "gol": { "casa": "23 fatti · 14 subiti", "trasferta": "21 fatti · 15 subiti" },
-        "rendimento": { "casa": "72% vittorie in casa", "trasferta": "55% punti in trasferta" },
-        "percentuali": { "over15": 88, "over25": 72, "over35": 49, "gol": 70, "noGol": 30 },
-        "xg": { "casa": "2,01", "trasferta": "1,78", "xgaCasa": "1,20", "xgaTrasferta": "1,35" },
-        "quote": { "uno": "2,02", "ics": "3,80", "due": "3,30" }
+        "forma": {
+          "casa5": "V V P V N",
+          "trasferta5": "V V N P V",
+          "casa10": "6V · 2N · 2P",
+          "trasferta10": "6V · 1N · 3P"
+        },
+        "gol": {
+          "casa": "23 fatti · 14 subiti",
+          "trasferta": "21 fatti · 15 subiti"
+        },
+        "rendimento": {
+          "casa": "72% vittorie in casa",
+          "trasferta": "55% punti in trasferta"
+        },
+        "percentuali": {
+          "over15": 88,
+          "over25": 72,
+          "over35": 49,
+          "gol": 70,
+          "noGol": 30
+        },
+        "xg": {
+          "casa": "2,01",
+          "trasferta": "1,78",
+          "xgaCasa": "1,20",
+          "xgaTrasferta": "1,35"
+        },
+        "quote": {
+          "uno": "2,02",
+          "ics": "3,80",
+          "due": "3,30"
+        }
       }
     }
   ]
