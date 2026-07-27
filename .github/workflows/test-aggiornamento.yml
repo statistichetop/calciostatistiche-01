@@ -1,0 +1,48 @@
+name: Test aggiornamento dati
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: test-aggiornamento-main
+  cancel-in-progress: false
+
+jobs:
+  aggiorna-timestamp:
+    name: Aggiorna timestamp dimostrativo
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Aggiorna il timestamp
+        run: python scripts/aggiorna_timestamp.py
+
+      - name: Verifica il JSON
+        run: python -m json.tool data/partite-oggi.json > /dev/null
+
+      - name: Crea il commit se necessario
+        shell: bash
+        run: |
+          if git diff --quiet -- data/partite-oggi.json; then
+            echo "Nessuna modifica da pubblicare."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/partite-oggi.json
+          git commit -m "Aggiornamento automatico timestamp"
+          git push origin HEAD:main
