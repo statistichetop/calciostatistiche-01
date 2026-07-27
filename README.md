@@ -10,9 +10,18 @@ Prima versione dimostrativa di un sito responsive dedicato a statistiche e prono
 - sette campionati iniziali;
 - navigazione responsive per desktop e smartphone.
 
+## Struttura dati
+
+I contenuti dimostrativi sono separati dall'interfaccia:
+
+- `data/partite-oggi.json`: calendario e statistiche delle partite;
+- `data/pronostici.json`: esiti, affidabilità e consigli;
+- `data/storico.json`: risultati dei pronostici precedenti;
+- `data/campionati/serie-a.json`: prima scheda campionato predisposta.
+
 ## Avvio
 
-Non sono richieste librerie o installazioni. È possibile aprire direttamente `index.html` nel browser oppure avviare un semplice server locale nella cartella del progetto.
+Non sono richieste librerie o installazioni. Poiché i dati vengono caricati da file JSON, il sito deve essere aperto tramite un semplice server locale oppure tramite GitHub Pages.
 
 Esempio con Python:
 

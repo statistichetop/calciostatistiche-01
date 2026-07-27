@@ -1,0 +1,45 @@
+{
+  "tipoDati": "dimostrativi",
+  "pronostici": [
+    {
+      "partitaId": "inter-atalanta",
+      "esiti": { "unoXDue": "1", "doppiaChance": "1X", "underOver15": "Over 1,5", "underOver25": "Over 2,5", "underOver35": "Under 3,5", "golNoGol": "Gol" },
+      "affidabilita": 78,
+      "motivazione": "L'Inter parte favorita per qualità offensiva e rendimento interno, ma l'Atalanta può trovare la rete.",
+      "consigliati": ["1X + Over 1,5", "Gol", "Inter segna Over 1,5"],
+      "combinato": "1X + Gol · quota 2,05"
+    },
+    {
+      "partitaId": "palermo-sampdoria",
+      "esiti": { "unoXDue": "1", "doppiaChance": "1X", "underOver15": "Over 1,5", "underOver25": "Under 2,5", "underOver35": "Under 3,5", "golNoGol": "No Gol" },
+      "affidabilita": 71,
+      "motivazione": "Il fattore campo orienta il pronostico; si prevede una gara prudente e con pochi spazi.",
+      "consigliati": ["1X", "Under 3,5", "Palermo segna per primo"],
+      "combinato": "1X + Under 3,5 · quota 1,84"
+    },
+    {
+      "partitaId": "liverpool-tottenham",
+      "esiti": { "unoXDue": "1", "doppiaChance": "1X", "underOver15": "Over 1,5", "underOver25": "Over 2,5", "underOver35": "Over 3,5", "golNoGol": "Gol" },
+      "affidabilita": 82,
+      "motivazione": "Due attacchi propositivi: ritmo alto e occasioni da entrambe le parti favoriscono una gara ricca di gol.",
+      "consigliati": ["Over 2,5", "Gol", "Liverpool Over 1,5"],
+      "combinato": "1X + Over 2,5 + Gol · quota 2,22"
+    },
+    {
+      "partitaId": "sociedad-villarreal",
+      "esiti": { "unoXDue": "X", "doppiaChance": "1X", "underOver15": "Under 1,5", "underOver25": "Under 2,5", "underOver35": "Under 3,5", "golNoGol": "No Gol" },
+      "affidabilita": 67,
+      "motivazione": "Squadre equilibrate e attente nella prima fase di gioco: il pareggio resta lo scenario più plausibile.",
+      "consigliati": ["1X", "Under 2,5", "Pareggio 1° tempo"],
+      "combinato": "1X + Under 3,5 · quota 1,70"
+    },
+    {
+      "partitaId": "dortmund-lipsia",
+      "esiti": { "unoXDue": "1", "doppiaChance": "12", "underOver15": "Over 1,5", "underOver25": "Over 2,5", "underOver35": "Over 3,5", "golNoGol": "Gol" },
+      "affidabilita": 74,
+      "motivazione": "Il Dortmund ha un leggero vantaggio in casa, in una sfida con transizioni rapide e diverse occasioni.",
+      "consigliati": ["Gol", "Over 2,5", "Dortmund segna Over 1,5"],
+      "combinato": "Gol + Over 2,5 · quota 1,88"
+    }
+  ]
+}

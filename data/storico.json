@@ -1,0 +1,11 @@
+{
+  "tipoDati": "dimostrativi",
+  "risultati": [
+    { "partita": "Inter – Roma", "pronostico": "1X + Over 1,5", "risultatoFinale": "2–1", "esito": "Vinto", "quota": "1,72", "data": "20/07/2026" },
+    { "partita": "Arsenal – Chelsea", "pronostico": "Gol", "risultatoFinale": "1–1", "esito": "Vinto", "quota": "1,65", "data": "19/07/2026" },
+    { "partita": "Milan – Napoli", "pronostico": "1", "risultatoFinale": "0–1", "esito": "Perso", "quota": "2,10", "data": "18/07/2026" },
+    { "partita": "Barcelona – Betis", "pronostico": "Over 2,5", "risultatoFinale": "3–1", "esito": "Vinto", "quota": "1,58", "data": "17/07/2026" },
+    { "partita": "Bayern – Mainz", "pronostico": "1 + Over 2,5", "risultatoFinale": "2–0", "esito": "Perso", "quota": "1,90", "data": "16/07/2026" },
+    { "partita": "PSG – Lille", "pronostico": "1", "risultatoFinale": "2–0", "esito": "Vinto", "quota": "1,48", "data": "15/07/2026" }
+  ]
+}
