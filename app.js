@@ -42,8 +42,20 @@ function mergeMatchData(fixtures, predictions) {
   const predictionsById = new Map(predictions.map((prediction) => [prediction.partitaId, prediction]));
 
   return fixtures.map((fixture) => {
-    const prediction = predictionsById.get(fixture.id);
-    if (!prediction) throw new Error(`Manca il pronostico dimostrativo per ${fixture.casa} – ${fixture.trasferta}.`);
+    const prediction = predictionsById.get(fixture.id) || {
+      esiti: {
+        unoXDue: "N/D",
+        doppiaChance: "N/D",
+        underOver15: "N/D",
+        underOver25: "N/D",
+        underOver35: "N/D",
+        golNoGol: "N/D"
+      },
+      affidabilita: 0,
+      motivazione: "Questa partita non ha superato la soglia statistica minima oppure non dispone di dati sufficienti.",
+      consigliati: [],
+      combinato: "Non disponibile"
+    };
 
     return {
       id: fixture.id,

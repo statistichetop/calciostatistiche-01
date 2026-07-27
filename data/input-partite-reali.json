@@ -1,0 +1,111 @@
+{
+  "tipoDati": "dimostrativi",
+  "descrizione": "Esempio di input strutturato per il motore statistico. I valori non provengono da fonti reali.",
+  "partite": [
+    {
+      "id": "inter-atalanta",
+      "campionato": "Serie A",
+      "data": "27 luglio 2026",
+      "orario": "20:45",
+      "casa": {
+        "nome": "Inter",
+        "ultime5": ["V", "V", "V", "N", "V"],
+        "ultime10": { "vittorie": 8, "pareggi": 1, "sconfitte": 1 },
+        "golFatti10": 24,
+        "golSubiti10": 8,
+        "rendimento": 84,
+        "over15": 90,
+        "over25": 70,
+        "over35": 40,
+        "gol": 62,
+        "xgMedio": 2.18,
+        "xgaMedio": 0.82
+      },
+      "trasferta": {
+        "nome": "Atalanta",
+        "ultime5": ["V", "N", "P", "V", "N"],
+        "ultime10": { "vittorie": 5, "pareggi": 3, "sconfitte": 2 },
+        "golFatti10": 17,
+        "golSubiti10": 13,
+        "rendimento": 57,
+        "over15": 80,
+        "over25": 60,
+        "over35": 35,
+        "gol": 68,
+        "xgMedio": 1.58,
+        "xgaMedio": 1.24
+      },
+      "quote": { "uno": 1.72, "ics": 3.85, "due": 4.40 }
+    },
+    {
+      "id": "liverpool-tottenham",
+      "campionato": "Premier League",
+      "data": "27 luglio 2026",
+      "orario": "21:00",
+      "casa": {
+        "nome": "Liverpool",
+        "ultime5": ["V", "V", "V", "V", "N"],
+        "ultime10": { "vittorie": 8, "pareggi": 2, "sconfitte": 0 },
+        "golFatti10": 28,
+        "golSubiti10": 9,
+        "rendimento": 88,
+        "over15": 94,
+        "over25": 82,
+        "over35": 58,
+        "gol": 70,
+        "xgMedio": 2.42,
+        "xgaMedio": 0.86
+      },
+      "trasferta": {
+        "nome": "Tottenham",
+        "ultime5": ["V", "P", "V", "N", "P"],
+        "ultime10": { "vittorie": 5, "pareggi": 2, "sconfitte": 3 },
+        "golFatti10": 20,
+        "golSubiti10": 17,
+        "rendimento": 54,
+        "over15": 88,
+        "over25": 74,
+        "over35": 52,
+        "gol": 76,
+        "xgMedio": 1.72,
+        "xgaMedio": 1.48
+      },
+      "quote": { "uno": 1.55, "ics": 4.50, "due": 5.20 }
+    },
+    {
+      "id": "dortmund-lipsia",
+      "campionato": "Bundesliga",
+      "data": "28 luglio 2026",
+      "orario": "17:30",
+      "casa": {
+        "nome": "Dortmund",
+        "ultime5": ["V", "V", "N", "V", "V"],
+        "ultime10": { "vittorie": 7, "pareggi": 2, "sconfitte": 1 },
+        "golFatti10": 25,
+        "golSubiti10": 12,
+        "rendimento": 79,
+        "over15": 90,
+        "over25": 76,
+        "over35": 50,
+        "gol": 72,
+        "xgMedio": 2.12,
+        "xgaMedio": 1.08
+      },
+      "trasferta": {
+        "nome": "Lipsia",
+        "ultime5": ["V", "N", "P", "V", "P"],
+        "ultime10": { "vittorie": 5, "pareggi": 2, "sconfitte": 3 },
+        "golFatti10": 19,
+        "golSubiti10": 16,
+        "rendimento": 51,
+        "over15": 84,
+        "over25": 68,
+        "over35": 46,
+        "gol": 70,
+        "xgMedio": 1.64,
+        "xgaMedio": 1.42
+      },
+      "quote": { "uno": 2.02, "ics": 3.80, "due": 3.30 }
+    }
+  ]
+}
