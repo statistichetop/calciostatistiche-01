@@ -1,0 +1,2809 @@
+{
+  "statoElaborazione": "completata",
+  "aggiornatoIl": "2026-07-27T21:07:01+02:00",
+  "fonte": [
+    "https://www.football-data.co.uk/italym.php",
+    "https://www.football-data.co.uk/matches_new_leagues.php",
+    "https://www.football-data.co.uk/mmz4281/0001/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0102/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0203/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0304/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0405/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0506/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0607/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0708/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0809/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/0910/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1011/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1112/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1213/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1314/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1415/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1516/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1617/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1718/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1819/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/1920/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2021/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2122/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2223/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2324/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/2526/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9394/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9495/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9596/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9697/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9798/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9899/I1.csv",
+    "https://www.football-data.co.uk/mmz4281/9900/I1.csv",
+    "https://www.football-data.co.uk/new_league_fixtures.csv"
+  ],
+  "numeroSquadreElaborate": 20,
+  "numeroPartiteUtilizzate": 100,
+  "statisticheSquadre": [
+    {
+      "nome": "Atalanta",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 4,
+      "sconfitte": 3,
+      "golFatti": 12,
+      "golSubiti": 10,
+      "mediaGolFatti": 1.2,
+      "mediaGolSubiti": 1.0,
+      "rendimentoComplessivo": 43.3,
+      "rendimentoCasa": 33.3,
+      "rendimentoTrasferta": 50.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-22",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "2-3"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-22",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-04-18",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Lecce",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Verona",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-03-14",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 30.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 50.0,
+      "percentualeNoGol": 50.0,
+      "mediaTiriFatti": 13.8,
+      "mediaTiriSubiti": 12.2,
+      "mediaTiriInPortaFatti": 4.2,
+      "mediaTiriInPortaSubiti": 4.1,
+      "mediaCalciDAngolo": 4.8,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Bologna",
+      "partiteGiocate": 10,
+      "vittorie": 5,
+      "pareggi": 2,
+      "sconfitte": 3,
+      "golFatti": 12,
+      "golSubiti": 12,
+      "mediaGolFatti": 1.2,
+      "mediaGolSubiti": 1.2,
+      "rendimentoComplessivo": 56.7,
+      "rendimentoCasa": 33.3,
+      "rendimentoTrasferta": 80.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "3-3"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Atalanta",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-11",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "3-3"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Atalanta",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-11",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-05",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        }
+      ],
+      "percentualeOver15": 70.0,
+      "percentualeOver25": 30.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 30.0,
+      "percentualeNoGol": 70.0,
+      "mediaTiriFatti": 11.8,
+      "mediaTiriSubiti": 9.7,
+      "mediaTiriInPortaFatti": 3.6,
+      "mediaTiriInPortaSubiti": 3.1,
+      "mediaCalciDAngolo": 4.0,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Cagliari",
+      "partiteGiocate": 10,
+      "vittorie": 4,
+      "pareggi": 1,
+      "sconfitte": 5,
+      "golFatti": 10,
+      "golSubiti": 15,
+      "mediaGolFatti": 1.0,
+      "mediaGolSubiti": 1.5,
+      "rendimentoComplessivo": 43.3,
+      "rendimentoCasa": 60.0,
+      "rendimentoTrasferta": 26.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-2"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-04-17",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Cremonese",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-04-04",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-03-20",
+          "avversario": "Napoli",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-3"
+        }
+      ],
+      "percentualeOver15": 70.0,
+      "percentualeOver25": 60.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 50.0,
+      "percentualeNoGol": 50.0,
+      "mediaTiriFatti": 13.6,
+      "mediaTiriSubiti": 11.9,
+      "mediaTiriInPortaFatti": 3.8,
+      "mediaTiriInPortaSubiti": 4.2,
+      "mediaCalciDAngolo": 4.8,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Como",
+      "partiteGiocate": 10,
+      "vittorie": 6,
+      "pareggi": 2,
+      "sconfitte": 2,
+      "golFatti": 19,
+      "golSubiti": 8,
+      "mediaGolFatti": 1.9,
+      "mediaGolSubiti": 0.8,
+      "rendimentoComplessivo": 66.7,
+      "rendimentoCasa": 66.7,
+      "rendimentoTrasferta": 66.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "4-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Napoli",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Genoa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "4-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Napoli",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Genoa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-17",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "3-4"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "5-0"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 50.0,
+      "percentualeOver35": 30.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 15.7,
+      "mediaTiriSubiti": 7.8,
+      "mediaTiriInPortaFatti": 5.3,
+      "mediaTiriInPortaSubiti": 2.2,
+      "mediaCalciDAngolo": 5.7,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Cremonese",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 1,
+      "sconfitte": 6,
+      "golFatti": 10,
+      "golSubiti": 17,
+      "mediaGolFatti": 1.0,
+      "mediaGolSubiti": 1.7,
+      "rendimentoComplessivo": 33.3,
+      "rendimentoCasa": 22.2,
+      "rendimentoTrasferta": 50.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-4"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-24",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-4"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-4"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-24",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-4"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-04-05",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-03-21",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-03-16",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-4"
+        }
+      ],
+      "percentualeOver15": 70.0,
+      "percentualeOver25": 60.0,
+      "percentualeOver35": 30.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 9.1,
+      "mediaTiriSubiti": 11.4,
+      "mediaTiriInPortaFatti": 3.6,
+      "mediaTiriInPortaSubiti": 4.0,
+      "mediaCalciDAngolo": 4.0,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Fiorentina",
+      "partiteGiocate": 10,
+      "vittorie": 4,
+      "pareggi": 5,
+      "sconfitte": 1,
+      "golFatti": 11,
+      "golSubiti": 8,
+      "mediaGolFatti": 1.1,
+      "mediaGolSubiti": 0.8,
+      "rendimentoComplessivo": 56.7,
+      "rendimentoCasa": 46.7,
+      "rendimentoTrasferta": 66.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-22",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-4"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-22",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-4"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-20",
+          "avversario": "Lecce",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-13",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-04-04",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-03-16",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "4-1"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 20.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 10.7,
+      "mediaTiriSubiti": 15.4,
+      "mediaTiriInPortaFatti": 3.3,
+      "mediaTiriInPortaSubiti": 5.1,
+      "mediaCalciDAngolo": 3.8,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Genoa",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 2,
+      "sconfitte": 5,
+      "golFatti": 7,
+      "golSubiti": 11,
+      "mediaGolFatti": 0.7,
+      "mediaGolSubiti": 1.1,
+      "rendimentoComplessivo": 36.7,
+      "rendimentoCasa": 25.0,
+      "rendimentoTrasferta": 44.4,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Lecce",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Atalanta",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Lecce",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Atalanta",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-03-20",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        }
+      ],
+      "percentualeOver15": 70.0,
+      "percentualeOver25": 30.0,
+      "percentualeOver35": 0.0,
+      "percentualeGol": 30.0,
+      "percentualeNoGol": 70.0,
+      "mediaTiriFatti": 11.2,
+      "mediaTiriSubiti": 11.6,
+      "mediaTiriInPortaFatti": 2.9,
+      "mediaTiriInPortaSubiti": 4.0,
+      "mediaCalciDAngolo": 4.1,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Inter",
+      "partiteGiocate": 10,
+      "vittorie": 5,
+      "pareggi": 5,
+      "sconfitte": 0,
+      "golFatti": 25,
+      "golSubiti": 13,
+      "mediaGolFatti": 2.5,
+      "mediaGolSubiti": 1.3,
+      "rendimentoComplessivo": 66.7,
+      "rendimentoCasa": 73.3,
+      "rendimentoTrasferta": 60.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "3-3"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Verona",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "2-2"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "3-3"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Verona",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "2-2"
+        },
+        {
+          "data": "2026-04-17",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "4-3"
+        },
+        {
+          "data": "2026-04-05",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "5-2"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-03-14",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        }
+      ],
+      "percentualeOver15": 100.0,
+      "percentualeOver25": 60.0,
+      "percentualeOver35": 40.0,
+      "percentualeGol": 70.0,
+      "percentualeNoGol": 30.0,
+      "mediaTiriFatti": 13.8,
+      "mediaTiriSubiti": 11.9,
+      "mediaTiriInPortaFatti": 5.2,
+      "mediaTiriInPortaSubiti": 3.6,
+      "mediaCalciDAngolo": 4.7,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Juventus",
+      "partiteGiocate": 10,
+      "vittorie": 5,
+      "pareggi": 4,
+      "sconfitte": 1,
+      "golFatti": 11,
+      "golSubiti": 6,
+      "mediaGolFatti": 1.1,
+      "mediaGolSubiti": 0.6,
+      "rendimentoComplessivo": 63.3,
+      "rendimentoCasa": 53.3,
+      "rendimentoTrasferta": 73.3,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "2-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Lecce",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Verona",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "2-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Lecce",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Verona",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Atalanta",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-03-21",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-03-14",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 10.0,
+      "percentualeOver35": 10.0,
+      "percentualeGol": 30.0,
+      "percentualeNoGol": 70.0,
+      "mediaTiriFatti": 17.4,
+      "mediaTiriSubiti": 10.3,
+      "mediaTiriInPortaFatti": 5.8,
+      "mediaTiriInPortaSubiti": 2.5,
+      "mediaCalciDAngolo": 6.4,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Lazio",
+      "partiteGiocate": 10,
+      "vittorie": 5,
+      "pareggi": 2,
+      "sconfitte": 3,
+      "golFatti": 13,
+      "golSubiti": 12,
+      "mediaGolFatti": 1.3,
+      "mediaGolSubiti": 1.2,
+      "rendimentoComplessivo": 56.7,
+      "rendimentoCasa": 53.3,
+      "rendimentoTrasferta": 60.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "3-3"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "3-3"
+        },
+        {
+          "data": "2026-04-18",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-13",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-04-04",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        }
+      ],
+      "percentualeOver15": 80.0,
+      "percentualeOver25": 40.0,
+      "percentualeOver35": 10.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 10.1,
+      "mediaTiriSubiti": 12.6,
+      "mediaTiriInPortaFatti": 4.7,
+      "mediaTiriInPortaSubiti": 3.9,
+      "mediaCalciDAngolo": 3.5,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Lecce",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 2,
+      "sconfitte": 5,
+      "golFatti": 8,
+      "golSubiti": 13,
+      "mediaGolFatti": 0.8,
+      "mediaGolSubiti": 1.3,
+      "rendimentoComplessivo": 36.7,
+      "rendimentoCasa": 33.3,
+      "rendimentoTrasferta": 38.9,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-01",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-01",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-20",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-03-14",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 40.0,
+      "percentualeOver35": 10.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 9.8,
+      "mediaTiriSubiti": 12.0,
+      "mediaTiriInPortaFatti": 2.9,
+      "mediaTiriInPortaSubiti": 4.2,
+      "mediaCalciDAngolo": 3.7,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Milan",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 1,
+      "sconfitte": 6,
+      "golFatti": 9,
+      "golSubiti": 15,
+      "mediaGolFatti": 0.9,
+      "mediaGolSubiti": 1.5,
+      "rendimentoComplessivo": 33.3,
+      "rendimentoCasa": 26.7,
+      "rendimentoTrasferta": 40.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Genoa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Genoa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Sassuolo",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-03-21",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 50.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 12.4,
+      "mediaTiriSubiti": 12.9,
+      "mediaTiriInPortaFatti": 3.6,
+      "mediaTiriInPortaSubiti": 4.6,
+      "mediaCalciDAngolo": 3.6,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Napoli",
+      "partiteGiocate": 10,
+      "vittorie": 6,
+      "pareggi": 2,
+      "sconfitte": 2,
+      "golFatti": 15,
+      "golSubiti": 7,
+      "mediaGolFatti": 1.5,
+      "mediaGolSubiti": 0.7,
+      "rendimentoComplessivo": 66.7,
+      "rendimentoCasa": 66.7,
+      "rendimentoTrasferta": 66.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-05-11",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-24",
+          "avversario": "Cremonese",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "4-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Udinese",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-05-11",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-24",
+          "avversario": "Cremonese",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "4-0"
+        },
+        {
+          "data": "2026-04-18",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-03-20",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-03-14",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 40.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 30.0,
+      "percentualeNoGol": 70.0,
+      "mediaTiriFatti": 14.2,
+      "mediaTiriSubiti": 9.0,
+      "mediaTiriInPortaFatti": 4.4,
+      "mediaTiriInPortaSubiti": 3.0,
+      "mediaCalciDAngolo": 6.2,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Parma",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 2,
+      "sconfitte": 5,
+      "golFatti": 8,
+      "golSubiti": 14,
+      "mediaGolFatti": 0.8,
+      "mediaGolSubiti": 1.4,
+      "rendimentoComplessivo": 36.7,
+      "rendimentoCasa": 46.7,
+      "rendimentoTrasferta": 26.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-04-18",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Napoli",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-04",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-03-21",
+          "avversario": "Cremonese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-03-13",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-4"
+        }
+      ],
+      "percentualeOver15": 60.0,
+      "percentualeOver25": 20.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 8.2,
+      "mediaTiriSubiti": 13.3,
+      "mediaTiriInPortaFatti": 2.4,
+      "mediaTiriInPortaSubiti": 4.5,
+      "mediaCalciDAngolo": 3.6,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Pisa",
+      "partiteGiocate": 10,
+      "vittorie": 1,
+      "pareggi": 0,
+      "sconfitte": 9,
+      "golFatti": 6,
+      "golSubiti": 23,
+      "mediaGolFatti": 0.6,
+      "mediaGolSubiti": 2.3,
+      "rendimentoComplessivo": 10.0,
+      "rendimentoCasa": 20.0,
+      "rendimentoTrasferta": 0.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Napoli",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-05-01",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-23",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Napoli",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-05-01",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-10",
+          "avversario": "Roma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-3"
+        },
+        {
+          "data": "2026-04-05",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-5"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-1"
+        }
+      ],
+      "percentualeOver15": 80.0,
+      "percentualeOver25": 80.0,
+      "percentualeOver35": 20.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 8.6,
+      "mediaTiriSubiti": 11.9,
+      "mediaTiriInPortaFatti": 3.0,
+      "mediaTiriInPortaSubiti": 5.0,
+      "mediaCalciDAngolo": 2.4,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Roma",
+      "partiteGiocate": 10,
+      "vittorie": 7,
+      "pareggi": 1,
+      "sconfitte": 2,
+      "golFatti": 21,
+      "golSubiti": 10,
+      "mediaGolFatti": 2.1,
+      "mediaGolSubiti": 1.0,
+      "rendimentoComplessivo": 73.3,
+      "rendimentoCasa": 86.7,
+      "rendimentoTrasferta": 60.0,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "4-0"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Verona",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Lazio",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-2"
+        },
+        {
+          "data": "2026-05-04",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "4-0"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Bologna",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-18",
+          "avversario": "Atalanta",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-10",
+          "avversario": "Pisa",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-04-05",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "2-5"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Como",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        }
+      ],
+      "percentualeOver15": 90.0,
+      "percentualeOver25": 50.0,
+      "percentualeOver35": 30.0,
+      "percentualeGol": 40.0,
+      "percentualeNoGol": 60.0,
+      "mediaTiriFatti": 12.4,
+      "mediaTiriSubiti": 10.3,
+      "mediaTiriInPortaFatti": 4.8,
+      "mediaTiriInPortaSubiti": 3.7,
+      "mediaCalciDAngolo": 5.4,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Sassuolo",
+      "partiteGiocate": 10,
+      "vittorie": 3,
+      "pareggi": 2,
+      "sconfitte": 5,
+      "golFatti": 11,
+      "golSubiti": 12,
+      "mediaGolFatti": 1.1,
+      "mediaGolSubiti": 1.2,
+      "rendimentoComplessivo": 36.7,
+      "rendimentoCasa": 60.0,
+      "rendimentoTrasferta": 13.3,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-08",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Parma",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-05-08",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Fiorentina",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-17",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-12",
+          "avversario": "Genoa",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-04",
+          "avversario": "Cagliari",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-03-21",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Bologna",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        }
+      ],
+      "percentualeOver15": 70.0,
+      "percentualeOver25": 50.0,
+      "percentualeOver35": 10.0,
+      "percentualeGol": 60.0,
+      "percentualeNoGol": 40.0,
+      "mediaTiriFatti": 10.9,
+      "mediaTiriSubiti": 14.5,
+      "mediaTiriInPortaFatti": 3.5,
+      "mediaTiriInPortaSubiti": 4.3,
+      "mediaCalciDAngolo": 3.5,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Torino",
+      "partiteGiocate": 10,
+      "vittorie": 4,
+      "pareggi": 3,
+      "sconfitte": 3,
+      "golFatti": 16,
+      "golSubiti": 14,
+      "mediaGolFatti": 1.6,
+      "mediaGolSubiti": 1.4,
+      "rendimentoComplessivo": 50.0,
+      "rendimentoCasa": 73.3,
+      "rendimentoTrasferta": 26.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "2-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-08",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "2-2"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "2-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-05-08",
+          "avversario": "Sassuolo",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Udinese",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-04-26",
+          "avversario": "Inter",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "2-2"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Cremonese",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Verona",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-1"
+        },
+        {
+          "data": "2026-04-05",
+          "avversario": "Pisa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "1-0"
+        },
+        {
+          "data": "2026-03-21",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "2-3"
+        },
+        {
+          "data": "2026-03-13",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "4-1"
+        }
+      ],
+      "percentualeOver15": 80.0,
+      "percentualeOver25": 70.0,
+      "percentualeOver35": 40.0,
+      "percentualeGol": 70.0,
+      "percentualeNoGol": 30.0,
+      "mediaTiriFatti": 12.5,
+      "mediaTiriSubiti": 13.6,
+      "mediaTiriInPortaFatti": 3.3,
+      "mediaTiriInPortaSubiti": 4.6,
+      "mediaCalciDAngolo": 3.5,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Udinese",
+      "partiteGiocate": 10,
+      "vittorie": 4,
+      "pareggi": 2,
+      "sconfitte": 4,
+      "golFatti": 12,
+      "golSubiti": 7,
+      "mediaGolFatti": 1.2,
+      "mediaGolSubiti": 0.7,
+      "rendimentoComplessivo": 46.7,
+      "rendimentoCasa": 26.7,
+      "rendimentoTrasferta": 66.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Cremonese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "3-3"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Napoli",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Cremonese",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-09",
+          "avversario": "Cagliari",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-05-02",
+          "avversario": "Torino",
+          "campo": "casa",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-04-27",
+          "avversario": "Lazio",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "3-3"
+        },
+        {
+          "data": "2026-04-18",
+          "avversario": "Parma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Milan",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "3-0"
+        },
+        {
+          "data": "2026-04-06",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-03-20",
+          "avversario": "Genoa",
+          "campo": "trasferta",
+          "esito": "V",
+          "risultato": "2-0"
+        },
+        {
+          "data": "2026-03-14",
+          "avversario": "Juventus",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        }
+      ],
+      "percentualeOver15": 50.0,
+      "percentualeOver25": 20.0,
+      "percentualeOver35": 10.0,
+      "percentualeGol": 10.0,
+      "percentualeNoGol": 90.0,
+      "mediaTiriFatti": 12.2,
+      "mediaTiriSubiti": 14.7,
+      "mediaTiriInPortaFatti": 4.5,
+      "mediaTiriInPortaSubiti": 3.9,
+      "mediaCalciDAngolo": 4.4,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    },
+    {
+      "nome": "Verona",
+      "partiteGiocate": 10,
+      "vittorie": 0,
+      "pareggi": 3,
+      "sconfitte": 7,
+      "golFatti": 3,
+      "golSubiti": 12,
+      "mediaGolFatti": 0.3,
+      "mediaGolSubiti": 1.2,
+      "rendimentoComplessivo": 10.0,
+      "rendimentoCasa": 5.6,
+      "rendimentoTrasferta": 16.7,
+      "ultime5Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        }
+      ],
+      "ultime10Partite": [
+        {
+          "data": "2026-05-24",
+          "avversario": "Roma",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        },
+        {
+          "data": "2026-05-17",
+          "avversario": "Inter",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-05-10",
+          "avversario": "Como",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-05-03",
+          "avversario": "Juventus",
+          "campo": "trasferta",
+          "esito": "N",
+          "risultato": "1-1"
+        },
+        {
+          "data": "2026-04-25",
+          "avversario": "Lecce",
+          "campo": "casa",
+          "esito": "N",
+          "risultato": "0-0"
+        },
+        {
+          "data": "2026-04-19",
+          "avversario": "Milan",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-04-11",
+          "avversario": "Torino",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "1-2"
+        },
+        {
+          "data": "2026-04-04",
+          "avversario": "Fiorentina",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-03-22",
+          "avversario": "Atalanta",
+          "campo": "trasferta",
+          "esito": "P",
+          "risultato": "0-1"
+        },
+        {
+          "data": "2026-03-15",
+          "avversario": "Genoa",
+          "campo": "casa",
+          "esito": "P",
+          "risultato": "0-2"
+        }
+      ],
+      "percentualeOver15": 50.0,
+      "percentualeOver25": 10.0,
+      "percentualeOver35": 0.0,
+      "percentualeGol": 30.0,
+      "percentualeNoGol": 70.0,
+      "mediaTiriFatti": 11.8,
+      "mediaTiriSubiti": 13.2,
+      "mediaTiriInPortaFatti": 3.5,
+      "mediaTiriInPortaSubiti": 3.8,
+      "mediaCalciDAngolo": 4.7,
+      "coperturaDati": {
+        "partiteConTiri": 10,
+        "partiteConTiriInPorta": 10,
+        "partiteConCalciDAngolo": 10
+      }
+    }
+  ],
+  "avvisi": [
+    "Il file di importazione originale contiene 28 avvisi."
+  ]
+}
