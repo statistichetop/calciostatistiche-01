@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Statistiche e pronostici calcistici dimostrativi in un'interfaccia semplice e responsive.">
+  <title>Statistiche Calcio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="brand" type="button" data-view="partite" aria-label="Statistiche Calcio, torna alle partite">
+      <span class="brand-mark" aria-hidden="true">SC</span>
+      <span>Statistiche <strong>Calcio</strong></span>
+    </button>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Apri menu</span>
+    </button>
+
+    <nav id="main-nav" class="main-nav" aria-label="Navigazione principale">
+      <button class="active" type="button" data-view="partite">Partite del giorno</button>
+      <button type="button" data-view="campionati">Campionati</button>
+      <button type="button" data-view="pronostici">Pronostici</button>
+      <button type="button" data-view="storico">Storico</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="site-title">
+      <div class="hero-copy">
+        <span class="eyebrow">Match center · Demo</span>
+        <h1 id="site-title">Statistiche Calcio</h1>
+        <p>Partite, pronostici e analisi dettagliate in un'unica esperienza semplice e immediata.</p>
+      </div>
+      <div class="update-card">
+        <span class="status-dot" aria-hidden="true"></span>
+        <div>
+          <span>Ultimo aggiornamento</span>
+          <strong id="last-update">—</strong>
+        </div>
+      </div>
+    </section>
+
+    <div id="app-content" tabindex="-1">
+      <section class="app-view active-view" id="view-partite" data-page="partite" aria-labelledby="partite-title">
+        <div class="section-heading first-heading">
+          <div>
+            <span class="kicker">Calendario dimostrativo</span>
+            <h2 id="partite-title">Partite del giorno</h2>
+          </div>
+          <div class="legend"><span></span> 5 eventi</div>
+        </div>
+        <div id="matches-grid" class="matches-grid"></div>
+      </section>
+
+      <section class="app-view" id="view-campionati" data-page="campionati" aria-labelledby="campionati-title" hidden>
+        <div class="section-heading first-heading">
+          <div>
+            <span class="kicker">Competizioni disponibili</span>
+            <h2 id="campionati-title">Campionati</h2>
+          </div>
+          <span class="count">12 campionati</span>
+        </div>
+        <div id="leagues-grid" class="leagues-grid"></div>
+      </section>
+
+      <section class="app-view" id="view-pronostici" data-page="pronostici" aria-labelledby="pronostici-title" hidden>
+        <div class="section-heading first-heading">
+          <div>
+            <span class="kicker">Sintesi della giornata</span>
+            <h2 id="pronostici-title">Pronostici</h2>
+          </div>
+          <div class="legend"><span></span> Dati dimostrativi</div>
+        </div>
+        <div id="predictions-grid" class="predictions-summary"></div>
+      </section>
+
+      <section class="app-view" id="view-storico" data-page="storico" aria-labelledby="storico-title" hidden>
+        <div class="section-heading first-heading">
+          <div>
+            <span class="kicker">Risultati dimostrativi</span>
+            <h2 id="storico-title">Storico pronostici</h2>
+          </div>
+          <span class="count">Ultimi 6 eventi</span>
+        </div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr><th>Partita</th><th>Pronostico</th><th>Risultato</th><th>Esito</th><th>Quota</th><th>Data</th></tr>
+            </thead>
+            <tbody id="history-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="app-view" id="view-dettaglio" data-page="dettaglio" aria-live="polite" hidden>
+        <div id="match-detail"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Statistiche Calcio <span>·</span> Versione dimostrativa</p>
+    <p>I pronostici non costituiscono garanzia di risultato.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
