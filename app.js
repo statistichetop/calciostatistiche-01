@@ -1,13 +1,16 @@
 let matches = [];
 let historyRows = [];
 let serieA = null;
+let serieAStats = null;
+let serieAStatsError = null;
 
 const leagues = ["Serie A", "Serie B", "Serie C Girone A", "Serie C Girone B", "Serie C Girone C", "Premier League", "LaLiga", "Bundesliga", "Ligue 1", "Primeira Liga", "Eredivisie", "Süper Lig"];
 const dataFiles = {
   matches: "data/partite-oggi.json",
   predictions: "data/pronostici.json",
   history: "data/storico.json",
-  serieA: "data/campionati/serie-a.json"
+  serieA: "data/campionati/serie-a.json",
+  serieAStats: "data/statistiche-serie-a-reali.json"
 };
 
 const content = document.querySelector("#app-content");
@@ -157,16 +160,169 @@ function renderMatches() {
 }
 
 function renderLeagues() {
-  document.querySelector("#leagues-grid").innerHTML = leagues.map((league, index) => `
-    <article class="league-card">
+  document.querySelector("#leagues-grid").innerHTML = leagues.map((league, index) => {
+    const isSerieA = league === "Serie A";
+    const tag = isSerieA ? "button" : "article";
+    const attributes = isSerieA ? 'type="button" data-league="serie-a"' : "";
+    return `
+    <${tag} class="league-card ${isSerieA ? "league-card-button" : ""}" ${attributes}>
       <span class="league-number">${String(index + 1).padStart(2, "0")}</span>
       <div>
-        <span class="kicker">${league === serieA?.nome ? `${serieA.paese} · ${serieA.stagione}` : "Campionato"}</span>
+        <span class="kicker">${isSerieA ? "DATI REALI SERIE A" : "DATI DIMOSTRATIVI"}</span>
         <h3>${league}</h3>
       </div>
       <span class="league-arrow" aria-hidden="true">↗</span>
+    </${tag}>`;
+  }).join("");
+}
+
+function displayValue(value, suffix = "") {
+  return value === null || value === undefined ? "Non disponibile" : `${value}${suffix}`;
+}
+
+function serieAStandings() {
+  if (!serieAStats?.statisticheSquadre) return [];
+  return [...serieAStats.statisticheSquadre]
+    .map((team) => ({
+      ...team,
+      points: team.vittorie * 3 + team.pareggi,
+      goalDifference: team.golFatti - team.golSubiti
+    }))
+    .sort((first, second) =>
+      second.points - first.points ||
+      second.goalDifference - first.goalDifference ||
+      second.golFatti - first.golFatti
+    );
+}
+
+function showChampionshipsOverview() {
+  document.querySelector("#championships-heading").hidden = false;
+  document.querySelector("#leagues-grid").hidden = false;
+  document.querySelector("#serie-a-real-content").hidden = true;
+}
+
+function renderSerieATable() {
+  const container = document.querySelector("#serie-a-real-content");
+  document.querySelector("#championships-heading").hidden = true;
+  document.querySelector("#leagues-grid").hidden = true;
+  container.hidden = false;
+
+  if (serieAStatsError || !Array.isArray(serieAStats?.statisticheSquadre)) {
+    container.innerHTML = `
+      <button class="back-button" type="button" data-action="championships-overview">← Torna ai campionati</button>
+      <div class="data-error" role="alert">
+        <strong>Statistiche reali della Serie A momentaneamente non disponibili.</strong>
+      </div>
+    `;
+    return;
+  }
+
+  const standings = serieAStandings();
+  container.innerHTML = `
+    <button class="back-button" type="button" data-action="championships-overview">← Torna ai campionati</button>
+    <div class="real-data-heading">
+      <div><span class="real-data-label">DATI REALI SERIE A</span><h2>Classifica statistica</h2></div>
+      <span class="count">${standings.length} squadre · ${serieAStats.numeroPartiteUtilizzate} partite analizzate</span>
+    </div>
+    <div class="table-shell serie-a-table-shell">
+      <table class="serie-a-table">
+        <thead>
+          <tr>
+            <th>Pos.</th><th>Squadra</th><th>PG</th><th>V</th><th>N</th><th>P</th>
+            <th>GF</th><th>GS</th><th>DR</th><th>Punti</th><th>Over 1,5</th><th>Over 2,5</th><th>Gol</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${standings.map((team, index) => `
+            <tr>
+              <td data-label="Posizione"><strong>${index + 1}</strong></td>
+              <td data-label="Squadra"><button class="team-link" type="button" data-team="${encodeURIComponent(team.nome)}">${team.nome}</button></td>
+              <td data-label="Partite">${team.partiteGiocate}</td>
+              <td data-label="Vittorie">${team.vittorie}</td>
+              <td data-label="Pareggi">${team.pareggi}</td>
+              <td data-label="Sconfitte">${team.sconfitte}</td>
+              <td data-label="Gol fatti">${team.golFatti}</td>
+              <td data-label="Gol subiti">${team.golSubiti}</td>
+              <td data-label="Differenza reti">${team.goalDifference > 0 ? "+" : ""}${team.goalDifference}</td>
+              <td data-label="Punti"><strong>${team.points}</strong></td>
+              <td data-label="Over 1,5">${displayValue(team.percentualeOver15, "%")}</td>
+              <td data-label="Over 2,5">${displayValue(team.percentualeOver25, "%")}</td>
+              <td data-label="Gol">${displayValue(team.percentualeGol, "%")}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function recentMatchesMarkup(matches, title) {
+  return `
+    <article class="detail-card recent-matches-card">
+      <span class="kicker">${title}</span>
+      <div class="recent-matches-list">
+        ${matches.map((match) => `
+          <div>
+            <span class="result-badge ${match.esito === "V" ? "won" : match.esito === "P" ? "lost" : ""}">${match.esito}</span>
+            <span><strong>${match.avversario}</strong><small>${match.data} · ${match.campo}</small></span>
+            <strong>${match.risultato}</strong>
+          </div>
+        `).join("")}
+      </div>
     </article>
-  `).join("");
+  `;
+}
+
+function percentagePair(label, overValue) {
+  const underValue = typeof overValue === "number" ? Math.round((100 - overValue) * 10) / 10 : null;
+  return `
+    <div class="percentage-pair">
+      <span>${label}</span>
+      <strong>Over ${displayValue(overValue, "%")}</strong>
+      <strong>Under ${displayValue(underValue, "%")}</strong>
+    </div>
+  `;
+}
+
+function renderSerieATeam(encodedName) {
+  const name = decodeURIComponent(encodedName);
+  const team = serieAStats?.statisticheSquadre?.find((item) => item.nome === name);
+  if (!team) {
+    renderSerieATable();
+    return;
+  }
+
+  document.querySelector("#serie-a-real-content").innerHTML = `
+    <button class="back-button" type="button" data-action="serie-a-table">← Torna alla classifica</button>
+    <div class="detail-hero team-detail-hero">
+      <div><span class="real-data-label">DATI REALI SERIE A</span><h2>${team.nome}</h2></div>
+      <div class="detail-confidence"><strong>${team.partiteGiocate}</strong><span>partite analizzate</span></div>
+    </div>
+    <div class="detail-grid team-stats-grid">
+      ${statCard("Rendimento", "Complessivo", displayValue(team.rendimentoComplessivo, "%"), "Casa", displayValue(team.rendimentoCasa, "%"))}
+      ${statCard("Rendimento trasferta", "Trasferta", displayValue(team.rendimentoTrasferta, "%"), "Punti totali", team.vittorie * 3 + team.pareggi)}
+      ${statCard("Media gol", "Fatti", displayValue(team.mediaGolFatti), "Subiti", displayValue(team.mediaGolSubiti))}
+      ${statCard("Media tiri", "Fatti", displayValue(team.mediaTiriFatti), "Subiti", displayValue(team.mediaTiriSubiti))}
+      ${statCard("Media tiri in porta", "Fatti", displayValue(team.mediaTiriInPortaFatti), "Subiti", displayValue(team.mediaTiriInPortaSubiti))}
+      ${statCard("Media calci d'angolo", "A partita", displayValue(team.mediaCalciDAngolo), "Dati disponibili", `${team.coperturaDati.partiteConCalciDAngolo}/${team.partiteGiocate}`)}
+      ${recentMatchesMarkup(team.ultime5Partite, "Ultime 5 partite")}
+      ${recentMatchesMarkup(team.ultime10Partite, "Ultime 10 partite")}
+      <article class="detail-card percentages-card">
+        <span class="kicker">Percentuali Under / Over</span>
+        ${percentagePair("1,5 gol", team.percentualeOver15)}
+        ${percentagePair("2,5 gol", team.percentualeOver25)}
+        ${percentagePair("3,5 gol", team.percentualeOver35)}
+      </article>
+      <article class="detail-card percentages-card">
+        <span class="kicker">Gol / No Gol</span>
+        <div class="percentage-pair">
+          <span>Entrambe a segno</span>
+          <strong>Gol ${displayValue(team.percentualeGol, "%")}</strong>
+          <strong>No Gol ${displayValue(team.percentualeNoGol, "%")}</strong>
+        </div>
+      </article>
+    </div>
+  `;
 }
 
 function renderPredictions() {
@@ -302,11 +458,14 @@ function openMatch(id) {
 
 async function initializeApp() {
   try {
-    const [matchesData, predictionsData, historyData, serieAData] = await Promise.all([
+    const [matchesData, predictionsData, historyData, serieAData, serieAStatsResult] = await Promise.all([
       loadJson(dataFiles.matches, "partite-oggi.json"),
       loadJson(dataFiles.predictions, "pronostici.json"),
       loadJson(dataFiles.history, "storico.json"),
-      loadJson(dataFiles.serieA, "campionati/serie-a.json")
+      loadJson(dataFiles.serieA, "campionati/serie-a.json"),
+      loadJson(dataFiles.serieAStats, "statistiche-serie-a-reali.json")
+        .then((data) => ({ data, error: null }))
+        .catch((error) => ({ data: null, error }))
     ]);
 
     matches = mergeMatchData(
@@ -315,6 +474,8 @@ async function initializeApp() {
     );
     historyRows = validateArray(historyData.risultati, "storico.json");
     serieA = serieAData;
+    serieAStats = serieAStatsResult.data;
+    serieAStatsError = serieAStatsResult.error;
 
     renderMatches();
     renderLeagues();
@@ -337,8 +498,18 @@ menuButton.addEventListener("click", () => {
 document.addEventListener("click", (event) => {
   const viewButton = event.target.closest("[data-view]");
   const matchButton = event.target.closest("[data-match]");
+  const leagueButton = event.target.closest("[data-league]");
+  const teamButton = event.target.closest("[data-team]");
+  const actionButton = event.target.closest("[data-action]");
   if (matchButton) openMatch(matchButton.dataset.match);
-  else if (viewButton) showView(viewButton.dataset.view);
+  else if (teamButton) renderSerieATeam(teamButton.dataset.team);
+  else if (leagueButton?.dataset.league === "serie-a") renderSerieATable();
+  else if (actionButton?.dataset.action === "championships-overview") showChampionshipsOverview();
+  else if (actionButton?.dataset.action === "serie-a-table") renderSerieATable();
+  else if (viewButton) {
+    if (viewButton.dataset.view === "campionati") showChampionshipsOverview();
+    showView(viewButton.dataset.view);
+  }
 });
 
 window.addEventListener("resize", () => { if (window.innerWidth > 820) closeMenu(); });
